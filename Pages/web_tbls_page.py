@@ -20,5 +20,6 @@ class TablesPage(BasePage):
         self.age = WebElement (driver, '#age')
         self.salary = WebElement (driver, '#salary')
         self.department = WebElement (driver, '#department')
+        self.rt_header = WebElement (driver, '#rt-resizable-header-content')
 
 
